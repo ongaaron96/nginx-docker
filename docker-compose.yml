@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nginx-proxy:
+    image: ongaaron96/nginx-proxy:1.0.0
+    container_name: nginx-proxy
+    ports:
+      - 80:80
